@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fogyás & BiotechUSA - Affiliate</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background: #28a745;
+            color: white;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: url('https://images.pexels.com/photos/4753893/pexels-photo-4753893.jpeg') no-repeat center center/cover;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+        }
+
+        .hero .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 15px 25px;
+            background: #ff5722;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 5px;
+        }
+
+        .content {
+            padding: 50px;
+            text-align: center;
+            background: white;
+            margin-top: 20px;
+        }
+
+        .product-list {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .product {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 300px;
+        }
+
+        .product img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .reviews {
+            background: #eee;
+            padding: 50px;
+            text-align: center;
+        }
+
+        .review {
+            max-width: 600px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .review img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+
+        .cta {
+            text-align: center;
+            padding: 50px;
+            background: #28a745;
+            color: white;
+        }
+
+        .cta .btn {
+            background: #ff5722;
+            padding: 15px 25px;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #28a745;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">FitLife</div>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h1>Fogyj egészségesen a BiotechUSA termékeivel!</h1>
+        <p>Próbáld ki a legjobb természetes étrend-kiegészítőket és érd el a céljaidat!</p>
+        <a href="#products" class="btn">Nézd meg a termékeket</a>
+    </section>
+
+    <section id="products" class="content">
+        <h2>Ajánlott Termékek</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="https://images.pexels.com/photos/3278757/pexels-photo-3278757.jpeg" alt="BiotechUSA Zsírégető">
+                <h3>Thermo Drine</h3>
+                <p>Intenzív zsírégető formula</p>
+                <a href="#" class="btn">Vásárlás</a>
+            </div>
+            <div class="product">
+                <img src="https://images.pexels.com/photos/6551176/pexels-photo-6551176.jpeg" alt="Fehérje shake">
+                <h3>Diet Shake</h3>
+                <p>Segít a fogyásban, finom ízekben</p>
+                <a href="#" class="btn">Vásárlás</a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="reviews">
+        <h2>Vásárlói vélemények</h2>
+        <div class="review">
+            <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg" alt="Anna">
+            <p>„A Thermo Drine valóban segített a fogyásban! 3 hét alatt 5 kg-ot fogytam!” - Anna</p>
+        </div>
+        <div class="review">
+            <img src="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg" alt="Péter">
+            <p>„A Diet Shake finom és laktató, tökéletes reggelire.” - Péter</p>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Ne hagyd ki ezt a lehetőséget!</h2>
+        <p>Kezdd el az egészséges fogyást még ma!</p>
+        <a href="#products" class="btn">Vásárlás most</a>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 FitLife - Affiliate Marketing | Minden jog fenntartva.</p>
+    </footer>
+</body>
+</html>
